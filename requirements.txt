@@ -1,0 +1,40 @@
+# Core
+PyQt6
+SQLAlchemy
+psycopg2-binary
+alembic
+
+# UI Enhancements
+qtawesome
+PyQt-Material
+qdarkstyle
+
+# Reports & Printing
+reportlab
+weasyprint
+openpyxl
+xlsxwriter
+
+# API
+fastapi
+uvicorn
+pydantic
+
+# Syn
+requests
+httpx
+websockets
+
+# Utils
+python-dateutil
+jinja2
+pillow
+qrcode
+
+# Testing
+pytest
+pytest-qt
+pytest-cov
+
+# Packaging
+pyinstaller

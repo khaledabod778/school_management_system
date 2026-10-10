@@ -1,0 +1,42 @@
+{
+    "app": {
+        "app_name": "نظام إدارة المدرسة",
+        "app_version": "1.0.0",
+        "language": "ar",
+        "theme": "light",
+        "font_family": "Cairo",
+        "font_size": 12,
+        "sync_enabled": false,
+        "sync_interval": 60,
+        "sync_auto_start": true,
+        "backup_enabled": true,
+        "backup_interval": "daily",
+        "backup_directory": "backups",
+        "use_cloud_primary": false,
+        "database_mode": "hybrid",
+        "sync_health_check_interval": 30,
+
+        "// New: API Settings": "",
+        "api_mode": "remote",
+        "api_url": "http://192.168.8.100:8000",
+        "api_timeout": 30,
+        "api_auto_login": true
+    },
+    "database": {
+        "local_host": "192.168.8.100",
+        "local_port": 5432,
+        "local_db_name": "school_management",
+        "local_user": "postgres",
+        "local_password": "ENC:Z0FBQUFBQnF1YTNlOXBaS0dtSVpCTXlTUElyWUh3OWg1djlWMnR3VDFJblRkNmJhbUVUN3M0VlRpNjJFRlREeWJNN1cweEl0N0x4d3ZkS3VaNjFiT2RtRGxRalAyVTFSMXc9PQ==",
+        "cloud_host": "tokaido.proxy.rlwy.net",
+        "cloud_port": 35324,
+        "cloud_db_name": "railway",
+        "cloud_user": "postgres",
+        "cloud_password": "ENC:Z0FBQUFBQnF1YTNlV25ROHJlMmdpaFhXWDZuX204Nm51WjNuekdrQ0ZQQlhJWkZnUGtja2JJSnBFUTRGZDFERWVEb0Uwd1V3d0lBTDBmTjRhckRuWWtQeThZcVRia2FwZnFHdS1mTlVFQWJ2Tl80a2xpc01hLXBSMGlBYUw5ZGdQNW9aSkxIcktvOVQ=",
+        "cloud_sslmode": "require",
+        "cloud_api_url": "https://school-cloud-api-production.up.railway.app",
+        "cloud_api_key": "ENC:Z0FBQUFBQnF1YTNlTHZlTFhBSUFvMWVid0ZvLW55SXRpdW5fSXFxc2YwdTFlcTZtZzBLM1lpM0pUb2xiQzJKU0RfNDB0cmh1TjFvekNqQVYxMVZTYUprZmV1TlFVb3oyeHRiZThSUWhvY0ZxMTM4R3BYTWUzNUZEU3pUVXBDUG9fX3NsbmlrRFdSZF91bEtjLVlCUVRYbnlpRDQ1Uno1bVh3PT0=",
+        "debug": false,
+        "echo": false
+    }
+}
